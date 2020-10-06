@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * program that finds the factorial of a given number
  * @author Darian
@@ -18,11 +17,12 @@ public class Main {
   int num = input.nextInt();
   int total = 1;
 
+  // calculate sum of factorial
   for (int i = 1; i <= num; i++){
     total = total * i;
   }  
 
-  
+    // tell the user what the factorial of their number is
     System.out.println(num + "!" + " = " + total);
   }
 }
